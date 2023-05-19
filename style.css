@@ -24,6 +24,8 @@ body {
 .nav-row {
     display: flex;
     align-items: center;
+    gap: 13px;
+    margin-bottom: 15px;
 }
 
 .title {
