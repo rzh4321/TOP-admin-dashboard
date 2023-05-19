@@ -5,13 +5,13 @@ body {
     height: 100vh;
 }
 
-.main {
+.container {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
 
-.sidebar {
+.navbar {
     flex-grow: 0;
     display: flex;
     flex-direction: column;
@@ -95,4 +95,24 @@ button {
 button:hover {
     background-color: black;
     border: 2px solid black;
+}
+
+.main {
+    display: flex;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 70px));
+}
+
+.sidebar {
+    width: 50px;
+    background-color: blue;
 }
