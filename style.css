@@ -8,6 +8,8 @@ body {
 .main {
     background-color: red;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .sidebar {
@@ -45,4 +47,20 @@ body {
 
 #logo {
     width: 45px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
 }
