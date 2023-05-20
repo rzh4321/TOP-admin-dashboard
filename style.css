@@ -99,20 +99,38 @@ button:hover {
 
 .main {
     display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    gap: 15px;
 }
 
 .body {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+    gap: 5px;
 }
 
 .projects {
     display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(70px, 70px));
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .sidebar {
     width: 50px;
     background-color: blue;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+
+.row-icons {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8px;
 }
