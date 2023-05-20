@@ -127,10 +127,16 @@ button:hover {
     flex-direction: column;
     justify-content: space-around;
     border: 2px solid black;
+    padding: 30px 30px 20px 30px;
+    border-radius: 5%;
 }
 
 .row-icons {
     display: flex;
     flex-direction: row-reverse;
     gap: 8px;
+}
+
+p {
+    margin: 0;
 }
