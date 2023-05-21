@@ -118,8 +118,9 @@ button:hover {
 }
 
 .sidebar {
-    width: 50px;
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .project {
@@ -128,6 +129,23 @@ button:hover {
     justify-content: space-around;
     border: 2px solid black;
     padding: 30px 30px 20px 30px;
+    border-radius: 5%;
+}
+
+.announcements {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5%;
+    font-size: 13px;
+}
+
+.announcement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 30px 20px 30px;
+    border-bottom: 1px solid black;
     border-radius: 5%;
 }
 
