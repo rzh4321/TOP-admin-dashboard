@@ -102,6 +102,8 @@ button:hover {
     justify-content: space-between;
     padding: 30px 40px;
     gap: 15px;
+    background-color: #e2e8f0;
+    height: 100vh;
 }
 
 .body {
